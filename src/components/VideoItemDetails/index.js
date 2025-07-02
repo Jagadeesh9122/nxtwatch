@@ -266,5 +266,5 @@ class VideoItemDetails extends Component {
     )
   }
 }
-VideoItemDetails.context = ThemeContext
+VideoItemDetails.contextType = ThemeContext
 export default VideoItemDetails
