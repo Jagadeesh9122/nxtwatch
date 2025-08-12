@@ -235,7 +235,7 @@ class Home extends Component {
           const {isDarkTheme} = value
           return (
             <LayoutContainer>
-              <SidebarContainer>
+              <SidebarContainer $isDark={isDarkTheme}>
                 <Sidebar />
               </SidebarContainer>
               <MainContent $isDark={isDarkTheme} data-testid="home">
