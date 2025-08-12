@@ -12,6 +12,7 @@ export const LayoutContainer = styled.div`
 
 export const SidebarContainer = styled.div`
   display: flex;
+  background-color: ${props => (props.$isDark ? '#181818' : '#ffffff')};
 
   @media (max-width: 576px) {
     display: none;
